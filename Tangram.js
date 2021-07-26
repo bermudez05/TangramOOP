@@ -199,7 +199,7 @@ function draw() {
     rect(windowWidth/2,windowHeight - 160,windowWidth-450,300);
     fill(0);
     textSize(35);
-    textFont(roboto);
+    //textFont(roboto);
     text("Controls:", windowWidth/2, windowHeight - 275);
     textSize(25);
     text("To select game mode just pressed the black button beside it", windowWidth/2, windowHeight - 235);
