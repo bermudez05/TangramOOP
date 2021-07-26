@@ -186,8 +186,8 @@ function draw() {
     textAlign(CENTER);
     text("TANGRAM", windowWidth/2, windowHeight/3.5);
     textSize(70);
-    text("playground", playground.position.x + 150, playground.position.y + 10);
-    text("levels", level_s.position.x + 90, level_s.position.y + 20);
+    text("playground", playground.position.x + 200, playground.position.y + 10);
+    text("levels", level_s.position.x + 170, level_s.position.y + 20);
     textSize(20);
     playground.draw();
     level_s.draw();
