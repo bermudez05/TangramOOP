@@ -142,7 +142,7 @@ function preload(){
   levels[4] = loadImage('images/level5.png');
   levels[5] = loadImage('images/level6.png');
   song = loadSound("congrats.mp3");
-  //roboto = loadFont('Roboto-Thin.ttf');
+  roboto = loadFont('Roboto-Thin.ttf');
   //poweto = loadFont('Poweto.ttf');
 }
 
@@ -150,6 +150,7 @@ function setup() {
   //new --> creates a new instance of the object
   var cc = createCanvas (windowWidth, windowHeight);
   cc.style('display', 'block');    // doesn't allow to scroll inside the page
+  textFont(robot);
   createCanvas(windowWidth,windowHeight);
   background (255);
   angleMode(DEGREES);
@@ -256,6 +257,7 @@ function draw() {
       case 6:
         noLoop();
         sound();
+        break;
     }
     menu.draw();
     next_level.draw();
