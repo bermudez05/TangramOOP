@@ -128,7 +128,6 @@ class Triangle extends Shape {
 var shapes = []; // shapes for the menu set up
 var colors = []; // colors for random selection
 let display = 'menu';
-var poweto;
 let levels = [];
 let level = 0;
 var roboto;
