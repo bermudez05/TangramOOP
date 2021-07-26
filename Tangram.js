@@ -142,12 +142,12 @@ function preload(){
   levels[4] = loadImage('images/level5.png');
   levels[5] = loadImage('images/level6.png');
   song = loadSound("congrats.mp3");
+  roboto = loadFont('Roboto-Thin.ttf');
+  poweto = loadFont('Poweto.ttf');
 }
 
 function setup() {
   //new --> creates a new instance of the object
-  roboto = loadFont('Roboto-Thin.ttf');
-  poweto = loadFont('Poweto.ttf');
   var cc = createCanvas (windowWidth, windowHeight);
   cc.style('display', 'block');    // doesn't allow to scroll inside the page
   createCanvas(windowWidth,windowHeight);
