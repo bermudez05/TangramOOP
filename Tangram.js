@@ -185,7 +185,7 @@ function draw() {
     fill(0);
     textSize(160);
     textAlign(CENTER);
-    textFont(poweto);
+    //textFont(poweto);
     text("TANGRAM", windowWidth/2, windowHeight/3.5);
     textSize(70);
     text("playground", playground.position.x + 170, playground.position.y + 10);
