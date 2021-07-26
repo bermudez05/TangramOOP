@@ -226,7 +226,7 @@ function draw() {
     background(255);
     menu.draw();
     text("Return to menu", menu.position.x - 100, menu.position.y + 7);
-    text("Congrats! press 'r' plis!",windowWidth/2,windowHeight/2);
+    text("Congrats! press 'r' please!",windowWidth/2,windowHeight/2);
   }
 
   if (display === "levels"){    // levels mode set up
