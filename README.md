@@ -13,4 +13,4 @@ Evidenciar los conceptos fundamentales de la programación orientada a objetos (
 
 ## Opciones de ejecución del codigo:
 - Descargando el codigo se puede ejecutar en un [servidor local](https://github.com/processing/p5.js/wiki/Local-server)
--  [GitHub Pages](https://bermudez05.github.io/TangramOOP/) (*observacion: ejecutar en una pestaña nueva*)
+-  [GitHub Pages](https://bermudez05.github.io/TangramOOP/) (*ejecutar en una pestaña nueva*)
