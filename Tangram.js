@@ -143,7 +143,6 @@ function preload(){
   levels[5] = loadImage('images/level6.png');
   song = loadSound("congrats.mp3");
   roboto = loadFont('Roboto-Thin.ttf');
-  //poweto = loadFont('Poweto.ttf');
 }
 
 function setup() {
@@ -186,7 +185,6 @@ function draw() {
     fill(0);
     textSize(160);
     textAlign(CENTER);
-    //textFont(poweto);
     text("TANGRAM", windowWidth/2, windowHeight/3.5);
     textSize(70);
     text("playground", playground.position.x + 170, playground.position.y + 10);
@@ -200,7 +198,6 @@ function draw() {
     rect(windowWidth/2,windowHeight - 160,windowWidth-450,300);
     fill(0);
     textSize(35);
-    //textFont(roboto);
     text("Controls:", windowWidth/2, windowHeight - 275);
     textSize(25);
     text("To select game mode just pressed the black button beside it", windowWidth/2, windowHeight - 235);
