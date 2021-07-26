@@ -145,40 +145,11 @@ function preload(){
   roboto = loadFont('Roboto-Thin.ttf');
 }
 
-function menu_settings(){
-    fill(0);
-    textSize(160);
-    textAlign(CENTER);
-    text("TANGRAM", windowWidth/2, windowHeight/3.5);
-    textSize(70);
-    text("playground", playground.position.x + 170, playground.position.y + 10);
-    text("levels", level_s.position.x + 100, level_s.position.y + 20);
-    textSize(20);
-    playground.draw();
-    level_s.draw();
-    rectMode(CENTER);
-    noStroke();
-    fill(255);
-    rect(windowWidth/2,windowHeight - 160,windowWidth-450,300);
-    fill(0);
-    textSize(35);
-    text("Controls:", windowWidth/2, windowHeight - 275);
-    textSize(25);
-    text("To select game mode just pressed the black button beside it", windowWidth/2, windowHeight - 235);
-    text(" To select any figure press them", windowWidth/2, windowHeight - 205);
-    text("Used the following keys to rotate the figures while their selected: ", windowWidth/2, windowHeight - 175);
-    text("Left arrow -> rotate left / Up arrow -> reflect trapezoid / Right arrow -> rotate right ", windowWidth/2, windowHeight - 145);
-    text(" To translate just drag the circle", windowWidth/2, windowHeight - 115);
-    text("Other functions:", windowWidth/2, windowHeight - 85);
-    text("- to save your figure press p", windowWidth/2, windowHeight - 55);
-    text("- to set the figures to their original position press s", windowWidth/2, windowHeight - 25);
-}
-
 function setup() {
   //new --> creates a new instance of the object
   var cc = createCanvas (windowWidth, windowHeight);
   cc.style('display', 'block');    // doesn't allow to scroll inside the page
-  textFont(robot);
+  textFont(roboto);
   createCanvas(windowWidth,windowHeight);
   background (255);
   angleMode(DEGREES);
@@ -211,7 +182,32 @@ function draw() {
     for (var i = 0; i < shapes.length; i++) {
       shapes[i].draw();
     }
-  menu_settings();
+    fill(0);
+    textSize(160);
+    textAlign(CENTER);
+    text("TANGRAM", windowWidth/2, windowHeight/3.5);
+    textSize(70);
+    text("playground", playground.position.x + 170, playground.position.y + 10);
+    text("levels", level_s.position.x + 100, level_s.position.y + 20);
+    textSize(20);
+    playground.draw();
+    level_s.draw();
+    rectMode(CENTER);
+    noStroke();
+    fill(255);
+    rect(windowWidth/2,windowHeight - 160,windowWidth-450,300);
+    fill(0);
+    textSize(35);
+    text("Controls:", windowWidth/2, windowHeight - 275);
+    textSize(25);
+    text("To select game mode just pressed the black button beside it", windowWidth/2, windowHeight - 235);
+    text(" To select any figure press them", windowWidth/2, windowHeight - 205);
+    text("Used the following keys to rotate the figures while their selected: ", windowWidth/2, windowHeight - 175);
+    text("Left arrow -> rotate left / Up arrow -> reflect trapezoid / Right arrow -> rotate right ", windowWidth/2, windowHeight - 145);
+    text(" To translate just drag the circle", windowWidth/2, windowHeight - 115);
+    text("Other functions:", windowWidth/2, windowHeight - 85);
+    text("- to save your figure press p", windowWidth/2, windowHeight - 55);
+    text("- to set the figures to their original position press s", windowWidth/2, windowHeight - 25);
   }
 
   if (display === "playground") {    // playground mode set up
