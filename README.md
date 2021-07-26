@@ -8,7 +8,7 @@ Evidenciar los conceptos fundamentales de la programación orientada a objetos (
 
 1. Dibujo de las piezas.
 2. Interacción con las piezas (ratón y teclado): selección y manipulación.
-3. Verificación de resultados.
+3. ~~Verificación de resultados.~~
 4. Creación de niveles.
 
 ## Opciones de ejecución del codigo:
